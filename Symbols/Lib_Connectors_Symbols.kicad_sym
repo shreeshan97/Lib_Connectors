@@ -8615,7 +8615,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -2.794 6.35 0)
+			(at -3.81 8.128 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8625,8 @@
 			)
 		)
 		(property "Value" "PJ-002AH"
-			(at -2.794 4.064 0)
+			(at -3.81 5.334 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8635,7 @@
 			)
 		)
 		(property "Footprint" "Lib_Connectors_Footprints:PJ-002AH"
-			(at -2.54 0 0)
+			(at -0.254 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8663,7 @@
 			)
 		)
 		(property "MF" "Same Sky"
-			(at -2.54 0 0)
+			(at -0.254 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,8 +8674,8 @@
 		)
 		(symbol "PJ-002AH_1_0"
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 8.89 0 180)
+				(length 5.08)
 				(name "TIP"
 					(effects
 						(font
@@ -8690,7 +8692,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -7.62 90)
+				(at 2.54 -8.89 90)
 				(length 5.08)
 				(name "SLEEVE"
 					(effects
@@ -8708,7 +8710,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -5.08 90)
+				(at -1.27 -6.35 90)
 				(length 2.54)
 				(name "ID"
 					(effects
@@ -8728,8 +8730,8 @@
 		)
 		(symbol "PJ-002AH_1_1"
 			(rectangle
-				(start -2.54 2.54)
-				(end 2.54 -2.54)
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -8751,7 +8753,7 @@
 			)
 			(circle
 				(center 0 0)
-				(radius 1.905)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type default)

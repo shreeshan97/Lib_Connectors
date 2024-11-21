@@ -153,6 +153,17 @@
 		(layer "F.CrtYd")
 		(uuid "a5e802c6-dbeb-4e22-959d-c9e5011a3312")
 	)
+	(fp_rect
+		(start -3.7 -9.2)
+		(end 3.7 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bf7821b6-75a1-49db-9aff-dfe89fede8dd")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3.81 0)
 		(layer "F.Fab")

@@ -8765,7 +8765,7 @@
 			)
 		)
 	)
-	(symbol "USBC_H"
+	(symbol "USBC-H"
 		(pin_names
 			(offset 1.016)
 		)
@@ -8782,7 +8782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBC_H"
+		(property "Value" "USBC-H"
 			(at -12.954 13.462 0)
 			(do_not_autoplace)
 			(effects
@@ -8851,7 +8851,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "USBC_H_0_0"
+		(symbol "USBC-H_0_0"
 			(rectangle
 				(start -12.7 10.16)
 				(end 12.7 -10.16)

@@ -1,0 +1,168 @@
+(footprint "P75-E2-06P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6 P75-E2 Pogo pins at 2.54mm apart")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d767e46f-5759-47df-b4ca-aef9da985bc5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "P75-E2-06P"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6adcb588-27ee-4961-9558-80f6963bb5ba")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c984732-a1da-4925-b2b4-6706b845ff73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6 P75-E2 Pogo pins at 2.54mm apart"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85e8e332-d04f-457c-8db3-c3055b1b947b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8 -1.5)
+		(end 8 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c794be62-3f02-495b-a5ee-04f74f5b8228")
+	)
+	(fp_rect
+		(start -8 -1.5)
+		(end 8 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9fde3269-459e-4f07-8f2c-f0aa318d1450")
+	)
+	(fp_rect
+		(start -8 -1.5)
+		(end 8 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78e48022-5ab2-4a9c-9cb3-9e2770e9c2d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7de86959-249f-4995-a547-febafe9c2caa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -6.35 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1479366d-b279-4e76-b837-038f663d4b78")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "87c87d8e-ee6a-4a99-9be1-67c8ab5cfac8")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "583838f0-8ca6-4b39-8b41-ec8fdf93f5c4")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "7eb06987-ff34-424c-8556-f087a3f0ebc4")
+	)
+	(pad "5" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "69ef8e66-1bd7-4e2c-99e2-3dcc6be755f0")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "abb94284-c707-47c8-85ae-99999543c886")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/Lib_Connectors/3DModels/P75-E2_6P.step"
+		(offset
+			(xyz -6.35 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

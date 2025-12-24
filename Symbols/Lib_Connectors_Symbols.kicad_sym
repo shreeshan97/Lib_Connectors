@@ -11027,7 +11027,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 0)
+				(at 0 -2.54 0)
 				(length 0)
 				(name "02"
 					(effects
@@ -11045,7 +11045,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 0 -5.08 0)
 				(length 0)
 				(name "03"
 					(effects
@@ -11063,7 +11063,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -11.43 0)
+				(at 0 -7.62 0)
 				(length 0)
 				(name "04"
 					(effects
@@ -11081,7 +11081,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 0 -10.16 0)
 				(length 0)
 				(name "05"
 					(effects
@@ -11099,7 +11099,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -19.05 0)
+				(at 0 -12.7 0)
 				(length 0)
 				(name "06"
 					(effects
@@ -11132,7 +11132,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.81) (xy 8.89 -3.81)
+					(xy 0 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0.635)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
 					(width 0.635)
@@ -11156,7 +11168,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -11.43) (xy 8.89 -11.43)
+					(xy 0 -10.16) (xy 8.89 -10.16)
 				)
 				(stroke
 					(width 0.635)
@@ -11168,19 +11180,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -15.24) (xy 8.89 -15.24)
-				)
-				(stroke
-					(width 0.635)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -19.05) (xy 8.89 -19.05)
+					(xy 0 -12.7) (xy 8.89 -12.7)
 				)
 				(stroke
 					(width 0.635)
@@ -11204,7 +11204,19 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -3.81) (xy 11.43 -3.81)
+					(xy 8.89 -2.54) (xy 11.43 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -5.08) (xy 11.43 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -11228,7 +11240,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -11.43) (xy 11.43 -11.43)
+					(xy 8.89 -10.16) (xy 11.43 -10.16)
 				)
 				(stroke
 					(width 0.254)
@@ -11240,19 +11252,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -15.24) (xy 11.43 -15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -19.05) (xy 11.43 -19.05)
+					(xy 8.89 -12.7) (xy 11.43 -12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -11276,7 +11276,19 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -3.81) (xy 11.43 -3.048) (xy 12.446 -3.81) (xy 11.43 -4.572) (xy 11.43 -3.81)
+					(xy 11.43 -2.54) (xy 11.43 -1.778) (xy 12.446 -2.54) (xy 11.43 -3.302) (xy 11.43 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -5.08) (xy 11.43 -4.318) (xy 12.446 -5.08) (xy 11.43 -5.842) (xy 11.43 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -11300,7 +11312,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -11.43) (xy 11.43 -10.668) (xy 12.446 -11.43) (xy 11.43 -12.192) (xy 11.43 -11.43)
+					(xy 11.43 -10.16) (xy 11.43 -9.398) (xy 12.446 -10.16) (xy 11.43 -10.922) (xy 11.43 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -11312,19 +11324,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -15.24) (xy 11.43 -14.478) (xy 12.446 -15.24) (xy 11.43 -16.002) (xy 11.43 -15.24)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 11.43 -19.05) (xy 11.43 -18.288) (xy 12.446 -19.05) (xy 11.43 -19.812) (xy 11.43 -19.05)
+					(xy 11.43 -12.7) (xy 11.43 -11.938) (xy 12.446 -12.7) (xy 11.43 -13.462) (xy 11.43 -12.7)
 				)
 				(stroke
 					(width 0)

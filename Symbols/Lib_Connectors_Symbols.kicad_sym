@@ -11011,14 +11011,14 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 0)
-				(name "01"
+				(name "1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "01"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11029,14 +11029,14 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 0)
-				(name "02"
+				(name "2"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "02"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11047,14 +11047,14 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 0)
-				(name "03"
+				(name "3"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "03"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11065,14 +11065,14 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 0)
-				(name "04"
+				(name "4"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "04"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11083,14 +11083,14 @@
 			(pin passive line
 				(at 0 -10.16 0)
 				(length 0)
-				(name "05"
+				(name "5"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "05"
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11101,14 +11101,14 @@
 			(pin passive line
 				(at 0 -12.7 0)
 				(length 0)
-				(name "06"
+				(name "6"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "06"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
